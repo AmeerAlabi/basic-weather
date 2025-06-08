@@ -9,7 +9,7 @@ event.preventDefault();
 
 const city = cityInput.value;
 
-if (city) {
+if (city) { 
     try{
 const weatherData = await getWeatherData(city);
 
