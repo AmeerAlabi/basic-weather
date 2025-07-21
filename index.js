@@ -20,7 +20,7 @@ console.error(error);
 displayError(error);
     }
 }
-else{
+else{ 
     displayError("Please enter a city");
 }
 });
