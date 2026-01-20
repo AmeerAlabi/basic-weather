@@ -5,7 +5,7 @@ const apikey = "c5c5cec34eea529ca1328fbf0a3a77d6";
 
 
 weatherForm.addEventListene("submit", async event => {
-event.preventDefault();
+event.preventDefault(); 
 
 const city = cityInput.value;
 
